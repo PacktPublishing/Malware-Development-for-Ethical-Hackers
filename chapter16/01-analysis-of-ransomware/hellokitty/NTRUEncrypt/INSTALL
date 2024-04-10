@@ -1,0 +1,37 @@
+Installation Instructions
+=========================
+
+If you downloaded a release tarball just run
+$ ./configure && make check
+
+Ensure that all of the tests completed successfully and
+install by running
+$ make install
+
+
+If you got the source from git run ./autogen.sh to finish
+setting up the autotools environment, then follow the instructions
+above. Alternatively you can use use pristine-tar to extract a
+release tarball from the repository. You can also see a list of
+releases by running:
+$ pristine-tar list
+and can generate a release tarball with, e.g.
+$ pristine-tar checkout libntruencrypt0_1.0.0.orig.tar.gz
+
+
+
+Optional Features
+=================
+
+Configure options:
+  --enable-simd
+      Build libntruencrypt with fast polynomial multiplication
+      routines. Requires a processor with SSSE3 instructions.
+  --enable-coverage
+      Link against libgcov and compile with the -coverage flag.
+      Requires CC=gcc, and lcov. Coverage results can subsequently
+      be gathered and analyzed by running:
+      $ make coverage-html
+  --disable-silent-rules
+      Verbose output during compilation.
+

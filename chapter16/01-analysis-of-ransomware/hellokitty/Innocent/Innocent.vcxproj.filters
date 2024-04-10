@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\Crypto">
+      <UniqueIdentifier>{2e1d6232-0f3f-4781-bf34-e87e90640cd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\Crypto\ntru">
+      <UniqueIdentifier>{136f23b8-0dfd-4d0c-a583-d8da4cfbb230}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\crc32\crc32.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NTRUEncrypt\src\ntru_crypto_drbg.c">
+      <Filter>Исходные файлы\Crypto\ntru</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NTRUEncrypt\src\ntru_crypto_hash.c">
+      <Filter>Исходные файлы\Crypto\ntru</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NTRUEncrypt\src\ntru_crypto_hmac.c">
+      <Filter>Исходные файлы\Crypto\ntru</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NTRUEncrypt\src\ntru_crypto_msbyte_uint32.c">
+      <Filter>Исходные файлы\Crypto\ntru</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NTRUEncrypt\src\ntru_crypto_ntru_convert.c">
+      <Filter>Исходные файлы\Crypto\ntru</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NTRUEncrypt\src\ntru_crypto_ntru_encrypt.c">
+      <Filter>Исходные файлы\Crypto\ntru</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NTRUEncrypt\src\ntru_crypto_ntru_encrypt_key.c">
+      <Filter>Исходные файлы\Crypto\ntru</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NTRUEncrypt\src\ntru_crypto_ntru_encrypt_param_sets.c">
+      <Filter>Исходные файлы\Crypto\ntru</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NTRUEncrypt\src\ntru_crypto_ntru_mgf1.c">
+      <Filter>Исходные файлы\Crypto\ntru</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NTRUEncrypt\src\ntru_crypto_ntru_mult_coeffs_karat.c">
+      <Filter>Исходные файлы\Crypto\ntru</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NTRUEncrypt\src\ntru_crypto_ntru_mult_indices.c">
+      <Filter>Исходные файлы\Crypto\ntru</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NTRUEncrypt\src\ntru_crypto_ntru_poly.c">
+      <Filter>Исходные файлы\Crypto\ntru</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NTRUEncrypt\src\ntru_crypto_sha1.c">
+      <Filter>Исходные файлы\Crypto\ntru</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NTRUEncrypt\src\ntru_crypto_sha2.c">
+      <Filter>Исходные файлы\Crypto\ntru</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NTRUEncrypt\src\ntru_crypto_sha256.c">
+      <Filter>Исходные файлы\Crypto\ntru</Filter>
+    </ClCompile>
+    <ClCompile Include="Encryptor.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sha256\sha256.cpp">
+      <Filter>Исходные файлы\Crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="randomMbedTls.hpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Base64.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="config.h">
+      <Filter>Исходные файлы\Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="..\crc32\crc32.h">
+      <Filter>Исходные файлы\Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="..\aes\aes.h">
+      <Filter>Исходные файлы\Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="..\enc-struct.h">
+      <Filter>Исходные файлы\Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NTRUEncrypt\src\ntru_crypto_hash.h">
+      <Filter>Исходные файлы\Crypto\ntru</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NTRUEncrypt\src\ntru_crypto_hash_basics.h">
+      <Filter>Исходные файлы\Crypto\ntru</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NTRUEncrypt\src\ntru_crypto_hmac.h">
+      <Filter>Исходные файлы\Crypto\ntru</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NTRUEncrypt\src\ntru_crypto_msbyte_uint32.h">
+      <Filter>Исходные файлы\Crypto\ntru</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NTRUEncrypt\src\ntru_crypto_ntru_convert.h">
+      <Filter>Исходные файлы\Crypto\ntru</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NTRUEncrypt\src\ntru_crypto_ntru_encrypt_key.h">
+      <Filter>Исходные файлы\Crypto\ntru</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NTRUEncrypt\src\ntru_crypto_ntru_encrypt_param_sets.h">
+      <Filter>Исходные файлы\Crypto\ntru</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NTRUEncrypt\src\ntru_crypto_ntru_mgf1.h">
+      <Filter>Исходные файлы\Crypto\ntru</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NTRUEncrypt\src\ntru_crypto_ntru_poly.h">
+      <Filter>Исходные файлы\Crypto\ntru</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NTRUEncrypt\src\ntru_crypto_sha.h">
+      <Filter>Исходные файлы\Crypto\ntru</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NTRUEncrypt\src\ntru_crypto_sha1.h">
+      <Filter>Исходные файлы\Crypto\ntru</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NTRUEncrypt\src\ntru_crypto_sha2.h">
+      <Filter>Исходные файлы\Crypto\ntru</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NTRUEncrypt\src\ntru_crypto_sha256.h">
+      <Filter>Исходные файлы\Crypto\ntru</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sha256\sha256.h">
+      <Filter>Исходные файлы\Crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="ntru.hpp">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="aesMbedTls.hpp">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="Base64.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,10 @@
+# libntruencrypt
+## 2015-09-17 - Release 1.1.0 [so version 1:0:1]
+* Added ees443ep1 and ees587ep1 parameter sets
+* Better (but not complete) Visual Studio support
+
+## 2015-07-09 - Release 1.0.0 [so version 0:0:0]
+* Migrated to autotools.
+* Added --enable-simd to toggle building of fast convolution
+routines on architectures that support SSSE3.
+* Added unit tests.

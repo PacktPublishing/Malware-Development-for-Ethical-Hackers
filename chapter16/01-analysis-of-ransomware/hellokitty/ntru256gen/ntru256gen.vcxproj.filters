@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\ntru">
+      <UniqueIdentifier>{8be7f370-b295-4b08-9d17-d7567cb992c4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\NTRUEncrypt\src\ntru_crypto_drbg.c">
+      <Filter>Исходные файлы\ntru</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NTRUEncrypt\src\ntru_crypto_hash.c">
+      <Filter>Исходные файлы\ntru</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NTRUEncrypt\src\ntru_crypto_hmac.c">
+      <Filter>Исходные файлы\ntru</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NTRUEncrypt\src\ntru_crypto_msbyte_uint32.c">
+      <Filter>Исходные файлы\ntru</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NTRUEncrypt\src\ntru_crypto_ntru_convert.c">
+      <Filter>Исходные файлы\ntru</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NTRUEncrypt\src\ntru_crypto_ntru_encrypt.c">
+      <Filter>Исходные файлы\ntru</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NTRUEncrypt\src\ntru_crypto_ntru_encrypt_key.c">
+      <Filter>Исходные файлы\ntru</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NTRUEncrypt\src\ntru_crypto_ntru_encrypt_param_sets.c">
+      <Filter>Исходные файлы\ntru</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NTRUEncrypt\src\ntru_crypto_ntru_mgf1.c">
+      <Filter>Исходные файлы\ntru</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NTRUEncrypt\src\ntru_crypto_ntru_mult_coeffs_karat.c">
+      <Filter>Исходные файлы\ntru</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NTRUEncrypt\src\ntru_crypto_ntru_mult_indices.c">
+      <Filter>Исходные файлы\ntru</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NTRUEncrypt\src\ntru_crypto_ntru_poly.c">
+      <Filter>Исходные файлы\ntru</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NTRUEncrypt\src\ntru_crypto_sha1.c">
+      <Filter>Исходные файлы\ntru</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NTRUEncrypt\src\ntru_crypto_sha2.c">
+      <Filter>Исходные файлы\ntru</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NTRUEncrypt\src\ntru_crypto_sha256.c">
+      <Filter>Исходные файлы\ntru</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Innocent\ntru.hpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Keygen.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sha256\sha256.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\sha256\sha256.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Innocent\randomMbedTls.hpp">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

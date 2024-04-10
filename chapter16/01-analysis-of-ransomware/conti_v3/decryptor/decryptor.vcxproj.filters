@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\filesystem">
+      <UniqueIdentifier>{a7efcbe5-64a9-486f-b0b7-3ba23e4d3a73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\global">
+      <UniqueIdentifier>{6f36c7aa-16fe-482d-8f90-4a01daa4374b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\memory">
+      <UniqueIdentifier>{56cf775c-f9e6-41a6-8f76-a7ce4835ed8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\obfuscation">
+      <UniqueIdentifier>{de46a242-5573-43e6-98bb-9f6e96aa0735}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\decryptor">
+      <UniqueIdentifier>{5de9a1c3-8884-461f-9fd0-bdac0d410df1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\threadpool">
+      <UniqueIdentifier>{4e97e037-9fb4-4661-8276-0f74b838e2b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\decryptor\chacha20">
+      <UniqueIdentifier>{079aa888-a12b-4019-b93d-2d5bf852d27b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\network_scanner">
+      <UniqueIdentifier>{b0b1c7b5-e4ba-4615-ab35-dbdc5ea1d372}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="filesystem\disks.cpp">
+      <Filter>Исходные файлы\filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="filesystem\search.cpp">
+      <Filter>Исходные файлы\filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="global\global_parameters.cpp">
+      <Filter>Исходные файлы\global</Filter>
+    </ClCompile>
+    <ClCompile Include="memory.cpp">
+      <Filter>Исходные файлы\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="decryptor.cpp">
+      <Filter>Исходные файлы\decryptor</Filter>
+    </ClCompile>
+    <ClCompile Include="threadpool\threadpool.cpp">
+      <Filter>Исходные файлы\threadpool</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="chacha20\chacha.c">
+      <Filter>Исходные файлы\decryptor\chacha20</Filter>
+    </ClCompile>
+    <ClCompile Include="network_scanner\network_scanner.cpp">
+      <Filter>Исходные файлы\network_scanner</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="filesystem\filesystem.h">
+      <Filter>Исходные файлы\filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="global\global_parameters.h">
+      <Filter>Исходные файлы\global</Filter>
+    </ClInclude>
+    <ClInclude Include="memory.h">
+      <Filter>Исходные файлы\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="decryptor.h">
+      <Filter>Исходные файлы\decryptor</Filter>
+    </ClInclude>
+    <ClInclude Include="threadpool\threadpool.h">
+      <Filter>Исходные файлы\threadpool</Filter>
+    </ClInclude>
+    <ClInclude Include="queue.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="obfuscation\MetaRandom2.h">
+      <Filter>Исходные файлы\obfuscation</Filter>
+    </ClInclude>
+    <ClInclude Include="obfuscation\MetaString.h">
+      <Filter>Исходные файлы\obfuscation</Filter>
+    </ClInclude>
+    <ClInclude Include="chacha20\chacha.h">
+      <Filter>Исходные файлы\decryptor\chacha20</Filter>
+    </ClInclude>
+    <ClInclude Include="chacha20\ecrypt-config.h">
+      <Filter>Исходные файлы\decryptor\chacha20</Filter>
+    </ClInclude>
+    <ClInclude Include="chacha20\ecrypt-machine.h">
+      <Filter>Исходные файлы\decryptor\chacha20</Filter>
+    </ClInclude>
+    <ClInclude Include="chacha20\ecrypt-portable.h">
+      <Filter>Исходные файлы\decryptor\chacha20</Filter>
+    </ClInclude>
+    <ClInclude Include="chacha20\ecrypt-sync.h">
+      <Filter>Исходные файлы\decryptor\chacha20</Filter>
+    </ClInclude>
+    <ClInclude Include="network_scanner\network_scanner.h">
+      <Filter>Исходные файлы\network_scanner</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

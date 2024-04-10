@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{C05A1F6F-DF33-45E8-83C1-077B478FAAEE}</ProjectGuid>
+    <RootNamespace>Innocent</RootNamespace>
+    <WindowsTargetPlatformVersion>7.0</WindowsTargetPlatformVersion>
+    <ProjectName>inn</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141_xp</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141_xp</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <GenerateManifest>false</GenerateManifest>
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)\_Bin\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)\_Obj\$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IncludePath>c:\Projects\LockerInnocentFork\lk\NTRUEncrypt\include\;c:\Projects\LockerInnocentFork\lk\mbedtls\include\;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Projects\LockerInnocentFork\lk\mbedtls\visualc\VS2010\Release;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)\_Bin\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)\_Obj\$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <GenerateManifest>false</GenerateManifest>
+    <IncludePath>c:\Projects\LockerInnocentFork\lk\NTRUEncrypt\include\;c:\Projects\LockerInnocentFork\lk\mbedtls\include\;$(IncludePath)</IncludePath>
+    <LibraryPath>c:\Projects\LockerInnocentFork\lk\mbedtls\visualc\VS2010\Debug\;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>
+      </SDLCheck>
+      <ConformanceMode>false</ConformanceMode>
+      <AdditionalOptions>/wd4146</AdditionalOptions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <PreprocessorDefinitions>_WIN32;_DEBUG;_CONSOLE;NTRUCRYPTO_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Neither</FavorSizeOrSpeed>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>mbedtls.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Console</SubSystem>
+      <IgnoreSpecificDefaultLibraries>
+      </IgnoreSpecificDefaultLibraries>
+      <UACExecutionLevel>RequireAdministrator</UACExecutionLevel>
+      <UACUIAccess>false</UACUIAccess>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy /Y C:\Projects\LockerInnocentFork\lk\_Bin\Win32\Debug\inn.exe c:\Projects\LockerInnocentFork\webpanel\binaries\inn.exe.bin</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>
+      </SDLCheck>
+      <ConformanceMode>
+      </ConformanceMode>
+      <AdditionalOptions>/wd4146</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>shlwapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>
+      </SDLCheck>
+      <ConformanceMode>false</ConformanceMode>
+      <StringPooling>true</StringPooling>
+      <ExceptionHandling>false</ExceptionHandling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <AdditionalIncludeDirectories>$(SolutionDir);$(ProjectDir);C:\Program Files (x86)\Visual Leak Detector\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CallingConvention>Cdecl</CallingConvention>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <AdditionalOptions>/std:c++latest</AdditionalOptions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <DisableSpecificWarnings>4127;4268;4307;4505;4530;4577</DisableSpecificWarnings>
+      <PreprocessorDefinitions>NTRUCRYPTO_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <GenerateWindowsMetadata>false</GenerateWindowsMetadata>
+      <AdditionalDependencies>mbedtls.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy /Y C:\Projects\LockerInnocentFork\lk\_Bin\Win32\Release\inn.exe c:\Projects\LockerInnocentFork\webpanel\binaries\inn.exe.bin</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\crc32\crc32.cpp" />
+    <ClCompile Include="..\NTRUEncrypt\src\ntru_crypto_drbg.c" />
+    <ClCompile Include="..\NTRUEncrypt\src\ntru_crypto_hash.c" />
+    <ClCompile Include="..\NTRUEncrypt\src\ntru_crypto_hmac.c" />
+    <ClCompile Include="..\NTRUEncrypt\src\ntru_crypto_msbyte_uint32.c" />
+    <ClCompile Include="..\NTRUEncrypt\src\ntru_crypto_ntru_convert.c" />
+    <ClCompile Include="..\NTRUEncrypt\src\ntru_crypto_ntru_encrypt.c" />
+    <ClCompile Include="..\NTRUEncrypt\src\ntru_crypto_ntru_encrypt_key.c" />
+    <ClCompile Include="..\NTRUEncrypt\src\ntru_crypto_ntru_encrypt_param_sets.c" />
+    <ClCompile Include="..\NTRUEncrypt\src\ntru_crypto_ntru_mgf1.c" />
+    <ClCompile Include="..\NTRUEncrypt\src\ntru_crypto_ntru_mult_coeffs_karat.c" />
+    <ClCompile Include="..\NTRUEncrypt\src\ntru_crypto_ntru_mult_indices.c" />
+    <ClCompile Include="..\NTRUEncrypt\src\ntru_crypto_ntru_poly.c" />
+    <ClCompile Include="..\NTRUEncrypt\src\ntru_crypto_sha1.c" />
+    <ClCompile Include="..\NTRUEncrypt\src\ntru_crypto_sha2.c" />
+    <ClCompile Include="..\NTRUEncrypt\src\ntru_crypto_sha256.c" />
+    <ClCompile Include="..\sha256\sha256.cpp" />
+    <ClCompile Include="Base64.cpp" />
+    <ClCompile Include="Encryptor.cpp" />
+    <ClCompile Include="randomMbedTls.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\aes\aes.h" />
+    <ClInclude Include="..\crc32\crc32.h" />
+    <ClInclude Include="..\enc-struct.h" />
+    <ClInclude Include="..\NTRUEncrypt\src\ntru_crypto_hash.h" />
+    <ClInclude Include="..\NTRUEncrypt\src\ntru_crypto_hash_basics.h" />
+    <ClInclude Include="..\NTRUEncrypt\src\ntru_crypto_hmac.h" />
+    <ClInclude Include="..\NTRUEncrypt\src\ntru_crypto_msbyte_uint32.h" />
+    <ClInclude Include="..\NTRUEncrypt\src\ntru_crypto_ntru_convert.h" />
+    <ClInclude Include="..\NTRUEncrypt\src\ntru_crypto_ntru_encrypt_key.h" />
+    <ClInclude Include="..\NTRUEncrypt\src\ntru_crypto_ntru_encrypt_param_sets.h" />
+    <ClInclude Include="..\NTRUEncrypt\src\ntru_crypto_ntru_mgf1.h" />
+    <ClInclude Include="..\NTRUEncrypt\src\ntru_crypto_ntru_poly.h" />
+    <ClInclude Include="..\NTRUEncrypt\src\ntru_crypto_sha.h" />
+    <ClInclude Include="..\NTRUEncrypt\src\ntru_crypto_sha1.h" />
+    <ClInclude Include="..\NTRUEncrypt\src\ntru_crypto_sha2.h" />
+    <ClInclude Include="..\NTRUEncrypt\src\ntru_crypto_sha256.h" />
+    <ClInclude Include="..\sha256\sha256.h" />
+    <ClInclude Include="aesMbedTls.hpp" />
+    <ClInclude Include="Base64.h" />
+    <ClInclude Include="config.h" />
+    <ClInclude Include="ntru.hpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

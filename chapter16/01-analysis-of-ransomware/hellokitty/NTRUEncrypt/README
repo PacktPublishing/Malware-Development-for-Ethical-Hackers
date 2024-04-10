@@ -1,0 +1,255 @@
+Some notes on using libntruencrypt.
+
+Providing a source of randomness
+================================
+
+  libntruencrypt needs a cryptographically secure source of random bits!
+
+  The library contains an internal deterministic random bit generator (DRBG)
+  that can be used to whiten an external random bit source that is of low
+  entropy. However, if a source of cryptographically random bits is available
+  (such as /dev/urandom on Linux) it can be used directly without whitening.
+
+  The mechanism is selected by calling one of two instantiation functions:
+
+    DRBG_HANDLE handle;
+    ntru_crypto_drbg_instantiate(..., &handle); /* HMAC based DRBG */
+    --or--
+    ntru_crypto_drbg_external_instantiate(..., &handle); /* External Source */
+
+  The later interface is substantially simpler, and is preferable on most
+  platforms. The following two sections describe how to use the interfaces.
+
+  Regardless of the instantiation method, a DRBG handle is destroyed by calling
+    ntru_crypto_drbg_uninstantiate(&handle);
+
+
+  Note: If you use NTRU for quantum resistance and use an external DRBG, make sure
+  it is instantiated with sufficient entropy! For security of k bits you should
+  instantiate your DRBG with 2*k bits of entropy from the external source. The
+  internal DRBG does this for you.
+
+
+HMAC-DRBG
+=========
+
+  One of the inputs to ntru_crypto_drbg_instantiate is an ENTROPY_FN. If you use
+  the internal HMAC-DRBG it is imperative that you write your entropy function
+  correctly. ENTROPY_FN is typedef'd as
+
+  typedef uint8_t (*ENTROPY_FN)(ENTROPY_CMD cmd, uint8_t *out);
+
+  and an ENTROPY_CMD is one of
+      INIT,
+      GET_NUM_BYTES_PER_BYTE_OF_ENTROPY
+      GET_BYTE_OF_ENTROPY.
+
+  On input INIT your entropy function must perform any initialization of your
+  external source that is necessary and return 1 on success or 0 on failure.
+
+  On GET_NUM_BYTES_PER_BYTE_OF_ENTROPY your entropy function must output (by
+  setting `out') a value between 1 and 8 representing the entropy of your
+  random source.  A value of k indicates that the one cryptographically random
+  byte can be extracted from k bytes of output from your source. For instance
+  an output of 1 indicates that the source is perfectly random, and an output
+  of 8 indicates that you can only extract one bit of randomness from each byte
+  of your source's output. Your entropy function should return 1 indicating
+  success.
+
+  On GET_BYTE_OF_ENTROPY your function must put one byte of output from your
+  random source in `out' and return 1 on success, 0 on failure.
+
+  Example: Suppose your platform provides a getrandombyte function
+    int getrandombyte(void *out);
+  that outputs 1 perfectly random byte at out and returns 0 on success. The
+  following is a reasonable ENTROPY_FN:
+
+  uint8_t
+  get_entropy(
+      ENTROPY_CMD  cmd,
+      uint8_t     *out)
+  {
+      if (cmd == INIT)
+          return 1;
+
+      if (out == NULL)
+          return 0;
+
+      if (cmd == GET_NUM_BYTES_PER_BYTE_OF_ENTROPY)
+      {
+          *out = 1;
+          return 1;
+      }
+
+      if (cmd == GET_BYTE_OF_ENTROPY)
+      {
+          if(0 == getrandombyte(out))
+            return 1;
+      }
+      return 0;
+  }
+
+  To use your get_entropy function:
+
+    uint32_t rc;
+    DRBG_HANDLE handle;
+    uint32_t sec_strength = 256;
+
+    rc = ntru_crypto_drbg_instantiate(sec_strength, NULL, 0,
+                                      &get_entropy, &handle);
+    if(rc != DRBG_RESULT(DRBG_OK))
+    { ...  }
+
+  The internal HMAC-DRBG is seeded with 3/2 * sec_strength * k bits of input
+  from get_entropy where k is the value returned by
+  get_entropy(GET_NUM_BYTES_PER...).
+  The maximum value of sec_strength is 256.
+  The second and third arguments are for specifying an optional
+  'personalization string' of up to 32 bytes of non-secret data that are to be
+  used in conjunction with the entropy source to seed the DRBG (see NIST SP
+  900-80A for details).
+
+
+External random sources
+=======================
+
+  If you trust an external random source, for example because you are using
+  libntruencrypt inside of a larger crypto suite that provides a random source,
+  then you can use that source directly.
+
+  One of the inputs to ntru_crypto_drbg_external_instantiate is a pointer to
+  a RANDOM_BYTES_FN, typedef'd as
+
+  typedef uint32_t (*RANDOM_BYTES_FN)(uint8_t *out, uint32_t num_bytes);
+
+  To use an external random source you simply wrap it in an RANDOM_BYTES_FN.
+
+  Example: Suppose your platform provides a getrandom function
+    int getrandom(void *buf, size_t buflen);
+  that accepts a buflen between 1 and 256 and returns either the number of
+  bytes output or -1 on failure.
+
+  #include "ntru_crypto_drbg.h"
+  ...
+  uint32_t randombytes(uint8_t *out, uint32_t num_bytes)
+  {
+    size_t i;
+    while(num_bytes > 0)
+    {
+      if(num_bytes > 256) {
+        i = 256;
+      } else {
+        i = num_bytes;
+      }
+
+      i = getrandom(out, i);
+      if(i == -1)
+        DRBG_RET(DRBG_ENTROPY_FAIL);
+
+      num_bytes -= i;
+      out += i;
+    }
+    DRBG_RET(DRBG_OK);
+  }
+
+  Note the use of DRBG_RET. This is required.
+
+  To use your randombytes function:
+
+    uint32_t rc;
+    DRBG_HANDLE handle;
+    rc = ntru_crypto_drbg_external_instantiate(&randombytesfn, &handle);
+    if(rc != DRBG_RESULT(DRBG_OK))
+    { ...  }
+
+
+Parameter sets
+==============
+
+  libntruencrypt provides all of the NTRUEncrypt parameter sets defined in the
+  IEEE 1363.1 standard -- a superset of those defined in X9.98.  In the table
+  below the line labeled Product contains the parameter sets that are unique to
+  1363.1. These parameter sets are also faster and more compact than the other
+  sets in their respective columns, and these sets are preferable unless X9.98
+  compatibility is required. The column headers denote estimated bit security.
+
+           112             128             192              256
+  Product  NTRU_EES401EP2  NTRU_EES439EP1  NTRU_EES593EP1   NTRU_EES743EP1
+
+  Size     NTRU_EES401EP1  NTRU_EES449EP1  NTRU_EES677EP1   NTRU_EES1087EP2
+  Balanced NTRU_EES541EP1  NTRU_EES613EP1  NTRU_EES887EP1   NTRU_EES1171EP1
+  Speed    NTRU_EES659EP1  NTRU_EES761EP1  NTRU_EES1087EP1  NTRU_EES1499EP1
+
+
+Cryptographic functions
+=======================
+
+  All of the cryptographic functions support two calling mechanisms. One to
+  obtain the lengths of any buffers that need to be allocated before performing
+  the operation, and a second to actually perform the operation
+
+  The DRBG inputs to keygen and encrypt are ignored when getting the buffer
+  lengths, and the DRBG need not be initialized at that time.
+
+
+
+  Keygen
+    NULL public_key requests public_key_len, NULL private_key requests
+    private_key_len. drbg argument is ignored.
+
+    Example:
+      /* Get public/private key buffer sizes */
+      rc = ntru_crypto_ntru_encrypt_keygen(drbg, NTRU_EES401EP2,
+                                           &public_key_len, NULL,
+                                           &private_key_len, NULL);
+      if(rc != NTRU_RESULT(NTRU_OK)) {...}
+
+      /* Allocate memory for keys */
+      ...
+      /* Perform the key generation */
+      rc = ntru_crypto_ntru_encrypt_keygen(drbg, NTRU_EES401EP2,
+                                           &public_key_len, public_key,
+                                           &private_key_len, private_key);
+      if(rc != NTRU_RESULT(NTRU_OK)) {...}
+
+  Encrypt
+    NULL ciphertext requests length, drbg, plaintext_len and plaintext arguments
+    are ignored.
+
+    Example:
+      /* Get the ciphertext buffer size */
+      rc = ntru_crypto_ntru_encrypt(drbg, public_key_len, public_key,
+                                    0, NULL,
+                                    &ciphertext_len, NULL);
+      if(rc != NTRU_RESULT(NTRU_OK)) {...}
+
+      /* Allocate memory for ciphertext */
+      ...
+      /* Perform the encryption */
+      rc = ntru_crypto_ntru_encrypt(drbg, public_key_len, public_key,
+                                    message_len, message,
+                                    &ciphertext_len, ciphertext);
+      if(rc != NTRU_RESULT(NTRU_OK)) {...}
+
+
+  Decrypt
+    NULL plaintext requests length, ciphertext_len and ciphertext arguments
+    are ignored.
+
+    Example:
+      /* Get maximum plaintext length */
+      rc = ntru_crypto_ntru_decrypt(private_key_len, private_key,
+                                    0, NULL,
+                                    &max_msg_len, NULL);
+
+      /* Allocate memory for plaintext */
+      ...
+      /* Perform the encryption.
+       * Note that plaintext_len will contain the actual output length
+       * on success
+       */
+      rc = ntru_crypto_ntru_decrypt(private_key_len, private_key,
+                                    ciphertext_len, ciphertext,
+                                    &plaintext_len, plaintext);
+      if(rc != NTRU_RESULT(NTRU_OK)) {...}
+

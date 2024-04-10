@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NtruEncrypt_DLL", "NtruEncrypt_DLL.vcxproj", "{2F9FC904-1627-4105-BD03-4EDB6401C071}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sample_NtruEncrypt", "Sample_NTRUEncrypt.vcxproj", "{269723B0-D865-4097-9650-EB0C0350D91A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2F9FC904-1627-4105-BD03-4EDB6401C071} = {2F9FC904-1627-4105-BD03-4EDB6401C071}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F9FC904-1627-4105-BD03-4EDB6401C071}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2F9FC904-1627-4105-BD03-4EDB6401C071}.Debug|Win32.Build.0 = Debug|Win32
+		{2F9FC904-1627-4105-BD03-4EDB6401C071}.Debug|x64.ActiveCfg = Debug|x64
+		{2F9FC904-1627-4105-BD03-4EDB6401C071}.Debug|x64.Build.0 = Debug|x64
+		{2F9FC904-1627-4105-BD03-4EDB6401C071}.Release|Win32.ActiveCfg = Release|Win32
+		{2F9FC904-1627-4105-BD03-4EDB6401C071}.Release|Win32.Build.0 = Release|Win32
+		{2F9FC904-1627-4105-BD03-4EDB6401C071}.Release|x64.ActiveCfg = Release|x64
+		{2F9FC904-1627-4105-BD03-4EDB6401C071}.Release|x64.Build.0 = Release|x64
+		{269723B0-D865-4097-9650-EB0C0350D91A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{269723B0-D865-4097-9650-EB0C0350D91A}.Debug|Win32.Build.0 = Debug|Win32
+		{269723B0-D865-4097-9650-EB0C0350D91A}.Debug|x64.ActiveCfg = Debug|x64
+		{269723B0-D865-4097-9650-EB0C0350D91A}.Debug|x64.Build.0 = Debug|x64
+		{269723B0-D865-4097-9650-EB0C0350D91A}.Release|Win32.ActiveCfg = Release|Win32
+		{269723B0-D865-4097-9650-EB0C0350D91A}.Release|Win32.Build.0 = Release|Win32
+		{269723B0-D865-4097-9650-EB0C0350D91A}.Release|x64.ActiveCfg = Release|x64
+		{269723B0-D865-4097-9650-EB0C0350D91A}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
