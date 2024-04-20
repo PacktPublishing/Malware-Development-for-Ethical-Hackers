@@ -1,0 +1,1243 @@
+A2GUARD.EXE|Emsisoft Internet Security
+A2SERVICE.EXE|Emsisoft Internet Security
+A2START.EXE|Emsisoft Internet Security
+aawservice.exe|Lavasoft Ad-Aware
+ACAAS.exe|AhnLab
+ACAEGMgr.exe|AhnLab
+acaif.exe|AhnLab
+ACAIS.exe|AhnLab
+acctmgr.exe|Symantec
+AcctMgr.exe|Symantec
+aclient.exe|Altiris remote login client
+AClntUsr.EXE|Altiris Client
+Ad-Aware2007.exe|Lavasoft Ad-Aware
+Administrator.exe|Entensys UserGate 5
+AdminServer.exe|Panda
+AESecurityService.exe|MS Content Management Service 
+AESecurityService.exe|MS Content Management Service 
+AeXAgentUIHost.exe|Altiris Agent
+aexnsagent.exe|Altiris Agent
+AeXNSAgent.exe|Altiris Agent
+AeXNSRcvSvc.exe|Altiris
+aexsvc.exe|Altiris
+aexswdusr.exe|Altiris Express NS Client Manager
+aflogvw.exe|AhnLab Spy Zero
+afwServ.exe|Avast Firewall Service
+ahnrpt.exe|AhnLab Spy Zero
+ahnsd.exe|AhnLab
+ahnsdsv.exe|AhnLab
+ALERT.EXE|CA eTrust Integrated Threat Management 8.1/CA Jinchen Kill
+alertsvc.exe|Symantec
+AlertSvc.exe|Symantec
+ALERTSVC.EXE|Symantec
+ALMon.exe|Sophos Anti-Virus
+alogserv.exe|McAfee VirusScan Activity Log Server
+AlogServ.exe|McAfee VirusScan Activity Log Server
+alsvc.exe|Sophos Anti-Virus AutoUpdate
+ALsvc.exe|Sophos Anti-Virus AutoUpdate
+alunotify.exe|Symantec
+ALUNotify.exe|Symantec
+ALUpdate.exe|Sophos Anti-Virus AutoUpdate
+aluschedulersvc.exe|Symantec
+AluSchedulerSvc.exe|Symantec
+AmSvc.exe|Cybereason|EDR
+amswmagt|CA eTrust Integrated Threat Management 8.1
+AnVir.exe|AnVir.exe
+aphost.exe|TrendMicro Infrastructure
+AppSvc32.exe|Symantec
+aps.exe|Outpost Security
+apvxdwin.exe|Panda Internet Security
+ashAvast.exe|Avast
+ashBug.exe|Avast
+ashChest.exe|Avast
+ashCmd.exe|Avast
+ashdisp.exe|Avast
+ashDisp.exe|Avast
+ashDisp.exe|Avast
+ashEnhcd.exe|Avast
+ashLogV.exe|Avast
+ashmaisv.exe|Avast
+ashMaiSv.exe|Avast
+ashPopWz.exe|Avast
+ashQuick.exe|Avast
+ashserv.exe|Avast
+ashServ.exe|Avast
+ashSimp2.exe|Avast
+ashSimpl.exe|Avast
+ashSkPcc.exe|Avast
+ashSkPck.exe|Avast
+ashUpd.exe|Avast
+ashwebsv.exe|Avast
+ashWebSv.exe|Avast
+asupport.exe|TrendMicro
+aswDisp.exe|Avast
+aswRegSvr.exe|Avast
+aswServ.exe|Avast
+aswupdsv.exe|Avast
+aswUpdsv.exe|Avast
+aswUpdSv.exe|Avast
+aswWebSv.exe|Avast
+AtrsHost.exe|Altiris
+atwsctsk.exe|AhnLab V3 Internet Security
+aupdrun.exe|Agnirum Outpost Firewall
+aus.exe|Outpost Security
+Auth8021x.exe|CA Jinchen KILL / eTrust Antivirus
+autoup.exe|AhnLab
+avadmin.exe|AVIRA Personal Edition Classic
+avastemupdate.exe|Avast Internet Security
+AvastSvc.exe|Avast
+AvastUI.exe|Avast GUI
+avcenter.exe|Avira
+avcenter.exe|Avira
+avconfig.exe|Avira
+avconfig.exe|Avira
+avconsol.exe|McAfee VirusScan Scheduler
+Avconsol.exe|McAfee VirusScan Scheduler
+avEngine.exe|Avast
+avengine.exe|Panda Anti-Virus
+AVENGINE.exe|Panda Internet Security
+avesvc.exe|Avira
+avesvc.exe|Avira
+avfwsvc.exe|AVIRA Personal Edition Classic
+avgam.exe|AVG 8/8.5
+avgamsvr.exe|AVG
+avgas.exe|AVG
+avgcc32.exe|AVG
+avgcc.exe|AVG
+avgcefrend.exe|AVG Internet Security (64-bit)
+AVGCHSVX.EXE|AVG Internet Security
+avgcmgr.exe|AVG Internet Security (32-bit)
+avgcsrva.exe|AVG Internet Security (64-bit)
+avgcsrvx.exe|AVG 8.5
+AVGCSRVX.EXE|AVG Internet Security
+avgctrl.exe|AVG
+avgdiag.exe|AVG
+avgemca.exe|AVG Internet Security (64-bit)
+avgemc.exe|AVG
+avgemcx.exe|AVG Internet Security (32-bit)
+avgfws8.exe|AVG
+avgfws9.exe|AVG 9.0 FW
+avgfws.exe|AVG Internet Security (32-bit)
+avgfws.exe|AVG Internet Security (64-bit)
+avgfwsrv.exe|AVG
+AVGIDSAgent.exe|AVG 8.5/9.0 IDS
+AVGIDSMonitor.exe|AVG 8.5/9.0 IDS
+AVGIDSUI.exe|AVG 8.5 IDS
+AVGIDSWatcher.exe|AVG 8.5 IDS
+avginet.exe|AVG
+avgmfapx.exe|AVG Internet Security (32-bit)
+avgmfapx.exe|AVG Internet Security (64-bit)
+avgmsvr.exe|AVG
+avgnsa.exe|AVG Internet Security (64-bit)
+avgnsx.exe|AVG 8/8.5
+AVGNSX.EXE|AVG Internet Security
+avgnt.exe|Avira
+avgnt.exe|Avira
+avgregcl.exe|AVG Registry Cleaner
+avgrsa.exe|AVG Internet Security (64-bit)
+avgrssvc.exe|AVG
+avgrsx.exe|AVG Anti-Virus
+avgscanx.exe|AVG
+avgserv9.exe|AVG
+avgserv.exe|AVG
+AVGSVC.EXE|AVG Internet Security
+avgsystx.exe|AVG SysTools
+avgtray.exe|AVG Anti-Virus
+avguard.exe|Avira AntiVir
+AVGUI.EXE|AVG Internet Security
+avgupd.exe|AVG
+avgupdln.exe|AVG
+avgupsvc.exe|AVG
+avgupsvc.exe|AVG
+avgvv.exe|AVG
+avgwb.dat|AVG
+avgwdsvc.exe|AVG Anti-Virus
+avgw.exe|AVG
+avgw.exe|AVG
+avgwizfw.exe|AVG
+AVKProxy.exe|G Data Internet Security 2007
+AVKService.exe|G Data Internet Security 2007
+AVKTray.exe|G Data Internet Security 2007
+AVKWCtl.exe|G Data Internet Security 2007
+avltmain.exe|Panda Titanium
+avmailc.exe|Avira
+avmailc.exe|Avira
+avmcdlg.exe|Avira
+avmcdlg.exe|Avira
+avnotify.exe|Avira
+avnotify.exe|Avira
+avpcc.exe|Kaspersky
+AVPDTAgt.exe|Kaspersky Lab Deployment Tool Agent
+avpexec.exe|Kaspersky
+avp.exe|Kaspersky
+AVP.exe|Kaspersky
+AVP.EXE|Kaspersky
+avpm.exe|Kaspersky
+AvpM.exe|Kaspersky
+avpncc.exe|Kaspersky
+avps.exe|Kaspersky
+avps.exe|Kaspersky
+AVPUI.EXE|Kaspersky 
+avpupd.exe|Kaspersky
+avscan.exe|Avira
+avscan.exe|Avira
+avserver.exe|Kerio Winroute Firewall
+avshadow.exe|Avira
+avsynmgr.exe|McAfee VirusScan Synchronization Manager
+Avsynmgr.exe|McAfee VirusScan Synchronization Manager
+Avtask.exe|Panda
+avwebgrd.exe|AVIRA Personal Edition Classic
+basfipm.exe|Broadcom ASF IP monitoring service
+BavTray.exe|Baidu AV
+bdagent.exe|BitDefender Security Suite
+bdc.exe|BitDefender Security Suite
+bdlite.exe|BitDefender Security Suite
+bdmcon.exe|BitDefender Security Suite
+bdmcon.exe|BitDefender Security Suite
+bdss.exe|BitDefender Security Suite
+bdsubmit.exe|BitDefender Security Suite
+Bhipssvc.exe|Baidu AV
+bka.exe|Bkav AV
+BkavSystemServer.exe|Bkav AV
+blackd.exe|BlackIce Firewall
+BLACKD.exe|Black Ice IDS  
+blackice.exe|BlackIce Firewall
+BluPro.exe|Bkav AV
+bmrt.exe|Barracuda Malware Removal Tool
+bmrt.exe|Barracuda Malware Removal Tool|SECURITY_PRODUCT
+BULLGUARDBHVSCANNER.EXE| BullGuard Internet Security
+BULLGUARD.EXE|BullGuard Internet Security
+BULLGUARDSCANNER.EXE| BullGuard Internet Security
+BULLGUARDTRAY.EXE|BullGuard Internet Security
+BULLGUARDUPDATE.EXE|BullGuard Internet Security
+bwgo0000|F-Secure Backweb Temporary Files
+CAAntiSpyware.exe|CA Internet Security Suite 2007
+caavcmdscan.exe|CA Internet Security Suite 2007
+caav.exe|CA Internet Security Suite 2007
+caavguiscan.exe|CA Internet Security Suite 2007
+ca.exe|eTrust Firewall
+caf.exe|CA eTrust Integrated Threat Management 8.1
+cafw.exe|CA Internet Security Suite 2007
+caissdt.exe|eTrust Internet Security Suite
+CALogDump.exe|CA Internet Security Suite 2007
+capfaem.exe|CA Internet Security Suite 2007
+capfasem.exe|CA Internet Security Suite 2008
+capfsem.exe|CA Internet Security Suite 2007
+capmuamagt.exe|CA eTrust Integrated Threat Management 8.1
+CAPPActiveProtection.exe   |CA Internet Security Suite 2007
+CAPPActiveProtection.exe|CA Internet Security Suite 2007/8/9
+casc.exe|CA Internet Security Suite 2009
+casecuritycenter.exe|CA Internet Security Suite 2007
+caunst.exe|CA Internet Security Suite 2007
+cavrep.exe|CA Internet Security Suite 2007
+cavrid.exe|CA AntiVirus Realtime Infection Report
+cavscan.exe|Comodo
+cavtray.exe|eTrust Antivirus
+ccap.exe|Symantec
+CCAP.EXE|Symantec
+ccapp.exe|Symantec
+ccApp.exe|Symantec
+ccemflsv.exe|Client and Host Security Platform 
+ccemflsv.exe|Client and Host Security Platform 
+CCenter.exe|Rising
+ccevtmgr.exe|Symantec
+ccEvtMgr.exe|Symantec
+cclaw.exe|Norman Ad-Aware SE Plus Antivirus 1.06r1 and Firewall 1
+CClaw.exe|Norman Ad-Aware SE Plus Antivirus 1.06r1 and Firewall 1 
+ccnfagent.exe|CA eTrust Integrated Threat Management 8.1
+ccprovsp.exe|CA Internet Security Suite 2008/9
+ccproxy.exe|Symantec
+ccProxy.exe|Symantec
+ccpxysvc.exe|Symantec
+ccschedulersvc.exe|CA Internet Security Suite 2009
+ccsetmgr.exe|Symantec
+ccSetmgr.exe|Symantec
+ccSetMgr.exe|Symantec
+ccsmagtd.exe|CA eTrust Integrated Threat Management 8.1
+ccSvcHst.exe|Symantec
+ccSvcHst.exe|Symantec Endpoint Protection 
+ccsystemreport.exe|CA Internet Security Suite 2009
+cctray.exe|CA Internet Security Suite 2007
+ccupdate.exe|CA Internet Security Suite 2007
+CertificationManagerServiceNT.exe|Sophos Control Center
+cfftplugin.exe|CA eTrust Integrated Threat Management 8.1
+cfnotsrvd.exe|CA eTrust Integrated Threat Management 8.1
+cfpconfg.exe|COMODO VIRUS SCANNER
+cfpconfig.exe|Comodo Firewall Pro
+cfp.exe|Comodo Firewall Pro
+cfplogvw.exe|Comodo Firewall Pro
+cfpsbmit.exe|Comodo Firewall Pro
+cfpupdat.exe|Comodo Firewall Pro
+cfsmsmd.exe|CA eTrust Integrated Threat Management 8.1
+checkup.exe|Symantec
+CIS.EXE|Comodo Internet Security
+CISTRAY.EXE|Comodo Internet Security
+cka.exe|Symantec
+clamscan.exe|ClamAV
+ClamTray.exe|ClamAV
+ClamWin.exe|ClamAV
+CLPS.exe|Comodo
+CLPSLA.exe|Comodo
+CLPSLS.exe|Comodo
+ClShield.exe|Panda
+cmdagent.exe|Comodo Firewall Pro
+cmdinstall.exe|Comodo
+cmgrdian.exe|McAfee Guardian Tray Icon
+CNTAoSMgr.exe|TrendMicro OfficeScan
+comHost.exe|Symantec
+Console.exe|Panda
+control_panel.exe|Entensys UserGate 5
+COREFRAMEWORKHOST.EXE|Trend Micro Internet Security
+CORESERVICESHELL.EXE|Trend Micro Internet Security
+cpdclnt.exe|Symantec
+cpd.exe|McAfee Firewall
+cpf.exe|Comodo Personal Firewall
+CPntSrv.exe|Panda
+CrAmTray.exe|Cybereason|EDR 
+crashrep.exe|Comodo Firewall Pro
+crdm.exe|Netsys Enterprise Security (Encryption) 
+crdm.exe|Netsys Enterprise Security (Encryption) 
+CrsSvc.exe|Cybereason|EDR 
+csacontrol.exe|Cisco Security Agent
+csacontrol.exe|Cisco Security Agent 5.1
+CSFalconService.exe|CrowdStrike Falcon|EDR NGAV
+CSFalconService.exe|CrowdStrike Falcon|EDR NGAV
+csinject.exe|Symantec
+csinsm32.exe|Symantec
+csinsmnt.exe|Symantec
+csrss_tc.exe|Atompark StaffCop
+cssauth.exe|Client Security Solution 
+cssauth.exe|Client Security Solution 
+CTDataLoad.exe|Altiris
+CylanceSvc.exe|Cylance|NGAV EDR 
+CylanceSvc.exe|Cylance|NGAV EDR 
+CylanceUI.exe|Cylance|NGAV EDR
+CylanceUI.exe|Cylance|NGAV EDR
+DAO_Log.exe|McAfee DAO Logger
+dbserv.exe|Symantec
+dbsrv9.exe|Symantec
+DeepMgmtService.exe|Deep Instinct NGAV
+DeepRPCServer|Deep Instinct NGAV
+DeepStaticService.exe|Deep Instinct NGAV
+Deep UI.exe|Deep Instinct NGAV
+defwatch.exe|Symantec
+DefWatch.exe|Symantec
+Defwatch|Symantec
+deloeminfs.exe|BitDefender Security Suite
+Deteqt.Agent.exe|MWR Deteqt Suite EDR
+diskmon.exe|Symantec
+djsnetcn.exe|Symantec
+DLService.exe|SmartLine DeviceLock Service
+DLTray.EXE|SmartLine DeviceLock
+DLTray.exe|SmartLine DeviceLock Tray Notifier
+DolphinCharge.e|GoldenDolphin Chinese IDS
+DolphinCharge.exe|GoldenDolphin Chinese IDS
+doscan.exe|Symantec
+DPMRA.exe|Microsoft Security Center Data Protection Manager 
+DPMRA.exe|Microsoft Security Center Data Protection Manager 
+drwagntd.exe|DrWeb Enterprise
+DRWAGNTD.EXE|DrWeb Enterprise
+DRWAGNUI.EXE|DrWeb
+drweb32.exe|DrWeb
+drweb32w.exe|DrWeb
+DRWEB32W.EXE|DrWeb
+drweb386.exe|DrWeb
+drwebcgp.exe|DrWeb
+drwebcom.exe|DrWeb Plesk COM for Windows
+drwebdc.exe|DrWeb
+drweb.exe|DrWeb
+drwebmng.exe|DrWeb
+drwebscd.exe|DrWeb
+DRWEBSCD.EXE|DrWeb
+drwebupw.exe|DrWeb
+DRWEBUPW.EXE|DrWeb
+drwebwcl.exe|DrWeb
+drwebwin.exe|DrWeb
+DRWINST.EXE|DrWeb
+drwupgrade.exe|DrWeb Enterprise
+dsa.exe|Deep Security TM EDR
+ds_monitor.exe|Deep Security TM EDR
+DWARKDAEMON.EXE|DrWeb Total Security 
+dwengine.exe|DrWeb
+dwhwizrd.exe|Symantec
+DWHWizrd.exe|Symantec
+DWNETFILTER.EXE|DrWeb Total Security 
+dwwin.exe|TrendMicro or DrWatson
+edisk.exe|McAfee VirusScan Emergency Disk Creator
+eeyeevnt.exe|eEye Retina Digital Security 
+egui.exe|Nod32
+EHttpSrv.exe|Nod32
+ekrn.exe|Nod32
+elogsvc.exe|Norman Ad-Aware SE Plus Antivirus 1.06r1 and Firewall 1 
+EMLibUpdateAgentNT.exe|Sophos Control Center
+EMLPROUI.exe|Omniquad Total Security 3.0.0
+EMLPROXY.exe|Omniquad Total Security 3.0.0
+EndPointSecurity.exe|GFI EndPointSecurity
+engineserver.exe|Mcafee
+EngineServer.exe|McAfee
+EntityMain.exe|Trend Micro Control Manager
+era.exe|ESET Remote Administrator
+esecagntservice.exe|GFI EndPoint Security
+esecservice.exe|GFI EndPointSecurity
+esmagent.exe|Enterprise Security Agent
+etagent.exe|EventTracker by Prism Microsystems
+ETConsole3.exe|EventTracker Console
+ETCorrel.exe|EventTracker log cache
+ETLogAnalyzer.exe|EventTracker by Prism Microsystems
+ETReporter.exe|EventTracker by Prism Microsystems  change 
+ETRssFeeds.exe|EventTracker by Prism Microsystems
+EtScheduler.exe|EventTracker Scheduler
+EtwControlPanel.exe|EventTracker Console
+EUQMonitor.exe|TrendMicro ScanMail for Exchange
+EventParser.exe|McAfee
+evtarmgr.exe|EventTracker by Prism Microsystems
+evtmgr.exe|EventTracker by Prism Microsystems
+evtProcessEcFile.exe|EventTracker , pops up and disappears
+ewidoctrl.exe|Ewido Security Suite 
+ewidoctrl.exe|Ewido Security Suite 
+ewidoguard.exe|Ewido Security Suite
+ewidoguard.exe|Ewido Security Suite 
+execstat.exe|StatWin
+fameh32.exe|F-Secure Alert and Management Extension Handler
+FAMEH32.exe|F-Secure Internet Security
+FCAPPDB.EXE|Fortinet Smart Security 
+FCDBLog.exe|FortiClient Host Security
+FCDBLOG.EXE|Fortinet Smart Security 
+fch32.exe|F-Secure Configuration Handler
+FCH32.exe|F-Secure Internet Security
+FCHELPER64.EXE|Fortinet Smart Security 
+fcsms.exe|Microsoft Forefront Client Security Management Service 
+fcsms.exe|Microsoft Forefront Client Security Management Service 
+FcsMs.exe|Microsoft Forefront Client Security Management Service 
+FcsMs.exe|Microsoft Forefront Client Security Management Service 
+fcssas.exe|Microsoft Forefront Client Security State Assessment Service 
+fcssas.exe|Microsoft Forefront Client Security State Assessment Service 
+FcsSas.exe|Microsoft Forefront Client Security State Assessment Service 
+FcsSas.exe|Microsoft Forefront Client Security State Assessment Service 
+fih32.exe|F-Secure Installation Launcher
+firesvc.exe|McAfee Desktop Firewall
+FireSvc.exe|McAfee Desktop Firewall
+FireTray.exe|McAfee Desktop Firewall
+firetray.exe|McAfee Desktop Firewall Traybar Helper
+FirewallGUI.exe|PC Tools Firewall Plus
+fmon.exe|FortiClient Host Security 3.0.459
+ForceField.exe|ZoneAlarm ForceField
+FORTIESNAC.EXE|Fortinet Smart Security 
+fortifw.exe|FortiClient Host Security 3.0.459
+FortiProxy.exe|FortiClient Host Security 3.0.459
+FORTIPROXY.EXE|Fortinet Smart Security 
+FORTISSLVPNDAEMON.EXE|Fortinet Smart Security 
+FortiTray.exe|FortiClient Host Security 3.0.459
+FORTITRAY.EXE|Fortinet Smart Security 
+FortiWF.exe|FortiClient Host Security 3.0.459
+FORTIWF.EXE|Fortinet Smart Security 
+FPAVServer.exe|F-PROT Antivirus
+FProtTray.exe|F-PROT Antivirus
+frameworkservice.exe|McAfee VirusScan Enterprise
+FrameworkService.exe|McAfee VirusScan Enterprise
+frameworkservic.exe|Mcafee VirusScan Framework Service
+FrameworkServic|McAfee Framework Services
+FrzState2k.exe|Deep Freeze TM EDR
+fsaa.exe|F-Secure Authentication Agent
+fsaua.exe|F-Secure Internet Security
+fsav32.exe|F-Secure Internet Security
+fsavgui.exe|F-Secure Internet Security GUI
+fscuif.exe|F-Secure Internet Security
+FSCUIF.exe|F-Secure Internet Security
+fsdfwd.exe|F-Secure Internet Security
+fsgk32.exe|F-Secure Internet Security
+fsgk32st.exe|F-Secure Internet Security
+fsguidll.exe|F-Secure Internet Security
+fsguiexe.exe|F-Secure Internet Security
+fshdll32.exe|F-Secure Internet Security
+FSHDLL32.exe|F-Secure Internet Security
+FSHOSTER32.EXE|F-Secure Internet Security
+FSHOSTER64.EXE|F-Secure Internet Security
+fsm32.exe|F-Secure Internet Security
+FSM32.exe|F-Secure Internet Security
+fsma32.exe|F-Secure Internet Security
+FSMA32.exe|F-Secure Internet Security
+fsmb32.exe|F-Secure Internet Security
+FSMB32.exe|F-Secure Internet Security
+fsorsp.exe|F-Secure Internet Security
+fspc.exe|F-Secure Internet Security
+fspex.exe|F-Secure Anti-Virus Updater
+fsqh.exe|F-Secure Internet Security
+fssm32.exe|F-Secure Internet Security
+FWCfg.exe|Symantec
+fwinst.exe|AVIRA Personal Edition Classic
+fws.exe|Radialpoint Security Services PCGuard 
+fws.exe|Radialpoint Security Services PCGuard 
+gcascleaner.exe|Microsoft AntiSpyware Cleaner Process
+gcasdtserv.exe|Microsoft AntiSpyware Server Process
+gcasinstallhelper.exe|Microsoft AntiSpyware Helper Process
+gcasnotice.exe|Microsoft AntiSpyware Notifier Process
+gcasservalert.exe|Microsoft AntiSpyware Alert Process
+gcasserv.exe|Microsoft AntiSpyware Server Process
+gcasswupdater.exe|Microsoft AntiSpyware Updater Process
+GDFirewallTray.exe|G Data Internet Security 2007
+GDFwSvc.exe|G Data Internet Security 2007
+GDScan.exe|G Data
+gfireporterservice.exe|GFI EndPointSecurity
+ghost_2.exe|Symantec
+ghosttray.exe|Symantec
+giantantispywaremain.exe|Microsoft AntiSpyware
+giantantispywareupdater.exe|Microsoft AntiSpyware
+guard.exe|AVG
+guard.exe|AVG
+guardgui.exe|Avira
+guardgui.exe|Avira
+gziface.exe|Bitdefender Free
+gzserv.exe|Bitdefender Free
+hpqWmiEx.exe|HP ProtectTools Security Manager 
+hpqWmiEx.exe|HP ProtectTools Security Manager 
+HWAPI.exe|McAfee Internet Security Suite
+icepack.exe|Symantec
+IcePack.exe|Symantec
+IdsInst.exe|Symantec
+iface.exe|Panda Anti-Virus
+igateway.exe|CA eTrust Integrated Threat Management 8.1/CA Jinchen Kill
+inicio.exe|Panda Internet Security
+inonmsrv.exe|CA Jinchen Kill
+InoNmSrv.exe|CA Jinchen Kill
+inorpc.exe|eTrust Antivirus
+InoRpc.exe|eTrust Antivirus
+inort.exe|eTrust Antivirus
+InoRT.exe|eTrust Antivirus
+inotask.exe|CA eTrust Integrated Threat Management 8.1/CA Jinchen Kill
+InoTask.exe|CA eTrust Integrated Threat Management 8.1/CA Jinchen Kill
+InoWeb.exe|CA Jinchen Kill
+iptray.exe|Cisco AMP|EDR process
+isafe.exe|CA AntiVirus ISafe Service
+isafinst.exe|CA Internet Security Suite 2007
+IsntSmtp.exe|TrendMicro
+ISNTSysMonitor|TrendMicro InterScan System Monitor
+isPwdSvc.exe|Symantec
+isscsf.exe|ISS Security Scanner 
+isscsf.exe|ISS Security Scanner 
+issCSF.exe|ISS Security Scanner 
+issCSF.exe|ISS Security Scanner 
+issdaemon.exe|ISS Security Scanner 
+issdaemon.exe|ISS Security Scanner 
+issDaemon.exe|ISS Security Scanner 
+issDaemon.exe|ISS Security Scanner 
+issvc.exe|Symantec
+ISSVC.exe|Symantec
+isUAC.exe|Symantec
+ISWMGR.exe|ZoneAlarm ForceField
+ITMRT_SupportDiagnostics.exe|CA Internet Security Suite 2007
+ITMRT_SupportDiagnostics.exe|CA Internet Security Suite 2007
+ITMRTSVC.exe|CA Internet Security Suite 2007
+ITMRT_TRACE.exe|CA Internet Security Suite 2007
+ixAptSvc.exe|nProtect
+ixAvSvc.exe|nProtect
+ixFwSvc.exe| nProtect
+KABackReport.exe|Kingsoft
+kaccore.exe|Kingsoft
+KANMCMain.exe|Kingsoft
+kansgui.exe|Kingsoft Antivirus
+kansvr.exe|Kingsoft Antivirus
+kastray.exe|Kingsoft
+kav32.exe|Kingsoft Internet Security 2008
+KavAdapterExe.exe|Kaspersky Anti-Virus for Lotus Notes
+kav.exe|Kaspersky
+kavfs.exe|Kaspersky Anti-Virus service process
+KAVFS.EXE|Kaspersky Anti-Virus service process
+kavfsgt.exe|Kaspersky Anti-Virus management service process
+kavfsrcn.exe|Kaspersky Anti-Virus remote management process
+kavfsscs.exe|Kaspersky script interception dispatcher service process
+kavfswp.exe|Kaspersky Anti-Virus working process
+kavisarv.exe|Kaspersky
+kavisarv.exe|Kaspersky
+kavlotsingleton.exe|Kaspersky Anti-Virus for Lotus Notes
+kavmm.exe|Kaspersky
+kavshell.exe|Kaspersky command line utility process
+kavss.exe|Kaspersky
+kavstart.exe|Kingsoft Internet Security
+KAVStart.exe|Kingsoft Internet Security
+kavsvc.exe|Kaspersky
+kavtray.exe|Kaspersky task tray process
+kb891711.exe|Windows Security Update 
+kis.exe|Kaspersky
+kislive.exe|Kingsoft
+kissvc.exe|Kingsoft Internet Security 2008
+klnacserver.exe|Kaspersky Lab Cisco NAC Posture Validation Server
+klnagent.exe|Kaspersky
+KLNAGENT.EXE|Kaspersky
+klnagent.exe|Kaspersky Network Agent
+klserver.exe|Kaspersky Administration Server
+klswd.exe|Kaspersky
+klwtblfs.exe|Kaspersky
+kmailmon.exe|Kingsoft
+KMailMon.exe|Kingsoft
+knownsvr.exe|Rising Antispyware
+KNUpdateMain.exe|Kingsoft
+kpf4gui.exe|Sunbelt Personal Firewall
+kpf4gui.exe|Sunbelt Personal Firewall 4
+kpf4ss.exe|Sunbelt Personal Firewall
+kpf4ss.exe|Sunbelt Personal Firewall 4
+kpfw32.exe|Kingsoft Internet Security 2008
+kpfwsvc.exe|Kingsoft Internet Security
+kpfwsvc.exe|Kingsoft Internet Security
+KPFWSvc.exe|Kingsoft Internet Security
+krbcc32s.exe|CA Jinchen KILL / eTrust Antivirus
+KSWebShield.exe|Kingsoft
+kvdetech.exe|Jiangmin AV and FW
+kvmonxp_2.kxp|Jiangmin AV and FW
+KVMonXP_2.kxp|Jiangmin AV and FW
+kvmonxp.kxp|Jiangmin AV and FW
+KVMonXP.kxp|Jiangmin AV and FW
+kvolself.exe|Jiangmin AV and FW
+kvsrvxp_1.exe|Jiangmin AV and FW
+kvsrvxp.exe|Jiangmin AV and FW
+KVSrvXP.exe|Jiangmin AV and FW
+kvxp.kxp|Jiangmin AV and FW
+KvXP.kxp|Jiangmin AV and FW
+kwatch.exe|Kingsoft Internet Security
+KWatch.exe|Kingsoft Internet Security
+kwsprod.exe|Kaspersky
+KWSProd.exe|Kaspersky
+kxeserv.exe|Kingsoft
+leventmgr.exe|Cisco Security Agent
+leventmgr.exe|Cisco Security Agent 5.1
+livesrv.exe|BitDefender Security Suite
+lmon.exe|Sophos Anti-Virus
+LogGetor.exe|GoldenDolphin Chinese IDS
+loggingserver.exe|AVG Internet Security (64-bit)
+log_qtine.exe|McAfee
+luall.exe|Symantec
+LUALL.exe|Symantec
+LUALL.EXE|Symantec
+lucallbackproxy.exe|Symantec
+lucoms~1.exe|Symantec
+lucomserver.exe|Symantec LiveUpdate
+lucoms.exe|Symantec
+LWDMServer.exe|TrendMicro Infrastructure
+macmnsvc.exe|McAfee Agent Common Services
+macompatsvc.exe|McAfee Compat service
+ManagementAgentNT.exe|Sophos Control Center
+mantispm.exe|ZoneAlarm Internet Security Suite 2007
+mantispm.exe|ZoneAlarm Internet Security Suite 2007
+masalert.exe|McAfee AntiSpyware
+massrv.exe|McAfee AntiSpyware application
+masvc.exe|McAfee Agent Service
+MBAMSERVICE.EXE|Malwarebytes Anti-Malware
+MBAMTRAY.EXE|Malwarebytes Anti-Malware
+McAfeeDataBackup.exe|McAfee Internet Security Suite
+mcagent.exe|McAfee Agent
+MCAPEXE.EXE|McAfee Endpoint Protection 
+mcappins.exe|McAfee Application Installer
+mcconsol.exe|McAfee VirusScan Enterprise
+mcdash.exe|McAfee Security Center Dashboard
+mcdetect.exe|McAfee Security Centre Module
+mcepoc.exe|McAfee VirusScan for EPOC OS
+McEPOC.exe|McAfee VirusScan for EPOC OS
+mcepocfg.exe|McAfee VirusScan for EPOC OS
+McEPOCfg.exe|McAfee VirusScan for EPOC OS
+mcinfo.exe|McAfee Internet Security
+mcmnhdlr.exe|McAfee VirusScan Command Handler
+mcmscsvc.exe|McAfee Internet Security Suite
+McNASvc.exe|McAfee Internet Security Suite
+mcods.exe|McAfee Internet Security Suite
+mcpalmcfg.exe|McAfee VirusScan for Palm OS
+mcpromgr.exe|McAfee Internet Security Suite
+McProxy.exe|McAfee Internet Security Suite
+mcregwiz.exe|McAfee Registration Wizard
+MCSACORE.EXE|McAfee Endpoint Protection 
+mcscript_inuse.exe|McAfee VirusScan Enterprise
+McScript_InUse.exe|McAfee VirusScan Enterprise
+mcshell.exe|McAfee GUI
+mcshield.exe|McAfee VirusScan
+Mcshield.exe|McAfee VirusScan
+Mcshield.exe|McAfee VirusScan
+MCSHIELD.EXE|McAfee VirusScan
+mcshld9x.exe|McAfee AntiVirus Component
+MCSVHOST.EXE|McAfee Endpoint Protection 
+mcsysmon.exe|McAfee System Monitor
+Mctray.exe|McAfee VirusScan Enterprise
+mctskshd.exe|McAfee Task Scheduler
+MCUI32.exe|Symantec
+McUICnt.exe|McAfee
+mcuimgr.exe|McAfee Internet Security Suite
+mcupdate.exe|McAfee VirusScan Enterprise
+mcupdmgr.exe|McAfee Update Manager
+mcvsftsn.exe|McAfee VirusScan Online
+mcvsrte.exe|McAfee.com VirusScan Online Realtime Engine
+mcvsshld.exe|McAfee VirusScan
+mcwcecfg.exe|McAfee VirusScan for WindowsCE OS
+McWCECfg.exe|McAfee VirusScan for WindowsCE OS
+mcwce.exe|McAfee VirusScan for WindowsCE OS
+McWCE.exe|McAfee VirusScan for WindowsCE OS
+mfeann.exe|McAfee
+mfeavsvc.exe|McAfee Cloud AV
+mfecanary.exe|McAfee Canary Process
+mfeesp.exe|McAfee Endpoint Security Platform component hosting server
+mfefire.exe|McAfee Core Firewall Service
+mfefw.exe|McAfee Firewall Business Object Hosting Server
+mfehcs.exe|McAfee HookCore Service
+mfemactl.exe|McAfee Agent AAC Host
+mfemms.exe|McAfee Management Service
+mfetp.exe|McAfee Threat Prevention Service
+mfevtps.exe|McAfee Process Validation
+mfewc.exe|McAfee Web Control Service
+mfewch.exe|McAfee Web Control Service
+mgavrtcl.exe|McAfee antivirus software
+mghtml.exe|McAfee VirusScan Component
+MgntSvc.exe|Sophos Control Center
+monsvcnt.exe|Ahnsd Korean AV
+monsysnt.exe|Ahnsd Korean AV
+mpcmdrun.exe|Windows Defender
+MpCmdRun.exe|Windows Defender
+mpfagent.exe|McAfee Personal Firewall
+MpfAgent.exe|McAfee Personal Firewall
+mpfconsole.exe|McAfee Personal Firewall
+mpf.exe|McAfee Personal Firewall
+mpfservice.exe|McAfee Personal Firewall Component
+MpfSrv.exe|McAfee Internet Security Suite
+mpftray.exe|McAfee Personal Firewall Tray icon
+mpsevh.exe|McAfee Internet Security Suite
+mps.exe|McAfee Internet Security Suite
+mpsvc.exe|Omniquad Total Security 3.0.0
+mrf.exe|TrendMicro Infrastructure
+MSASCui.exe|Windows Defender
+msascui.exe|Windows Defender or Microsoft Forefront (Check Registry Keys)
+mscifapp.exe|McAfee Privacy Service
+mskagent.exe|McAfee SpamKiller Module
+mskdetct.exe|McAfee Spamkiller
+msksrver.exe|McAfee Internet Security Suite
+msksrvr.exe|McAfee Spamkiller
+MsMpEng.exe|Windows Defender
+msmpeng.exe|Windows Defender or Microsoft Forefront (Check Registry Keys)
+MsPMSPSv.exe|Windows Media Device Manager Pre-Message Security Protocol Service 
+msscli.exe|McAfee AntiSpyware Component
+msseces.exe|Microsoft Security Essentials
+msssrv.exe|McAfee Anti Spyware
+myagttry.exe|McAfee Total Protection for Small Business
+NAIlgpip.exe|McAfee
+naprdmgr.exe|McAfee ePolicy Orchestrator
+naPrdMgr.exe|McAfee ePolicy Orchestrator
+navapsvc.exe|Symantec
+Navapsvc.exe|Symantec
+NAVAPSVC.EXE|Symantec
+navapw32.exe|Symantec
+NAVAPW32.EXE|Symantec
+NaveCtrl.exe|Symantec
+NaveLog.exe|Symantec
+NaveSP.exe|Symantec
+NavShcom.exe|Symantec
+navw32.exe|Symantec
+Navw32.exe|Symantec
+Navwnt.exe|Symantec
+NCDaemon.exe|Mcafee Scanner for Lotus Notes
+ndetect.exe|Symantec
+neotrace.exe|McAfee NeoTrace
+nerosvc.exe|Nero Security Service 
+nerosvc.exe|Nero Security Service 
+netalertclient.exe|GoldenDolphin Chinese IDS
+netcfg.exe|Kaspersky Network Configuration Tool
+NetworkAgent.exe|Websense Web Security / Web Filter 
+NetworkAgent.exe|Websense Web Security / Web Filter 
+ngctw32.exe|Symantec
+ngserver.exe|Symantec
+nip.exe|Norman Ad-Aware SE Plus Antivirus 1.06r1 and Firewall 1 
+Nip.exe|Norman Ad-Aware SE Plus Antivirus 1.06r1 and Firewall 1 
+NIP.exe|Norman Ad-Aware SE Plus Antivirus 1.06r1 and Firewall 1 
+nipsvc.exe|Norman Ad-Aware SE Plus Antivirus 1.06r1 and Firewall 1 
+nisoptui.exe|Symantec
+nisserv.exe|Symantec
+nissrv.exe|Microsoft Network Inspection System
+nisum.exe|Symantec
+njeeves.exe|Norman Ad-Aware SE Plus Antivirus 1.06r1 and Firewall 1 
+Njeeves.exe|Norman Ad-Aware SE Plus Antivirus 1.06r1 and Firewall 1 
+NJeeves.exe|Norman Ad-Aware SE Plus Antivirus 1.06r1 and Firewall 1 
+NLClient.exe|Netlimiter Traffic Monitor
+nlsvc.exe|LockTime NetLimiter 2 Monitor
+NMAGENT.EXE|Network Monitor Agent
+nmain.exe|Symantec
+nod32.exe|Nod32
+nod32krn.exe|Nod32
+nod32kui.exe|Nod32
+NOD32view.exe|NOD32 Update Viewer
+NORTONSECURITY.EXE|Norton Security Deluxe
+Notifier.exe|Deep Security TM EDR
+npfmntor.exe|Symantec
+Npfmsg2.exe|Norman Ad-Aware SE Plus Antivirus 1.06r1 and Firewall 1 
+npfmsg.exe|Norman Ad-Aware SE Plus Antivirus 1.06r1 and Firewall 1 
+NPFMSG.exe|Norman Ad-Aware SE Plus Antivirus 1.06r1 and Firewall 1 
+Npfsvice.exe|Norman Ad-Aware SE Plus Antivirus 1.06r1 and Firewall 1 
+nprotect.exe|Symantec
+NPROTECT.EXE|Symantec
+npscheck.exe|Symantec
+npssvc.exe|Symantec
+nrmenctb.exe|Norman Ad-Aware SE Plus Antivirus 1.06r1 and Firewall 1 
+NRMENCTB.exe|Norman Ad-Aware SE Plus Antivirus 1.06r1 and Firewall 1 
+nscsrvce.exe|Symantec
+nsctop.exe|Symantec
+NscTop.exe|Symantec
+nslocollectorservice.exe|enSilo Data Protection Collector Service
+nSMDemf.exe|TrendMicro
+nSMDmon.exe|TrendMicro
+nSMDreal.exe|TrendMicro
+nSMDsch.exe|TrendMicro
+nsmdtr.exe|Symantec
+NSMdtr.exe|Symantec
+ntcaagent.exe|Huawei SACC Agent
+ntcadaemon.exe|Huawei SACC Agent
+ntcaservice.exe|Huawei SACC Agent
+ntrtscan.exe|TrendMicro OfficeScan
+NTRtScan.exe|TrendMicro OfficeScan
+nvcoas.exe|Norman Ad-Aware SE Plus Antivirus 1.06r1 and Firewall 1 
+Nvcoas.exe|Norman Ad-Aware SE Plus Antivirus 1.06r1 and Firewall 1 
+NVCOAS.exe|Norman Ad-Aware SE Plus Antivirus 1.06r1 and Firewall 1 
+nvcsched.exe|Norman Ad-Aware SE Plus Antivirus 1.06r1 and Firewall 1 
+Nvcsched.exe|Norman Ad-Aware SE Plus Antivirus 1.06r1 and Firewall 1 
+NVCSched.exe|Norman Ad-Aware SE Plus Antivirus 1.06r1 and Firewall 1 
+nymse.exe|Norman Ad-Aware SE Plus Antivirus 1.06r1 and Firewall 1 
+Nymse.exe|Norman Ad-Aware SE Plus Antivirus 1.06r1 and Firewall 1 
+oasclnt.exe|McAfee VirusScan Module
+oespamtest.exe|Kaspersky Anti-Spam for Outlook or Outlook Express
+ofcdog.exe|TrendMicro
+ofcpfwsvc.exe|TrendMicro OfficeScan Personal Firewall
+OfcPfwSvc.exe|TrendMicro Personal Firewall
+okclient.exe|Cisco Security Agent
+okclient.exe|Cisco Security Agent 5.1
+olfsnt40.exe|Symantec
+OLFSNT40.EXE|Symantec
+OmniAgent.exe|MWR OmniAgent
+OMSLogManager.exe|Secret Net
+ONLINENT.exe|Omniquad Total Security 3.0.0
+ONLNSVC.exe|Omniquad Total Security 3.0.0
+opscan.exe|Symantec
+op_viewer.exe|Sophos FIREWALL GUI is OPEN
+outpost.exe|Outpost Security
+paamsrv.exe|Acronis Privacy Expert Suite
+PadFSvr.exe|Panda
+pagent.exe|Panda Enterprise
+Pagent.exe|Panda Enterprise
+pagentwd.exe|Panda Enterprise
+Pagentwd.exe|Panda Enterprise
+PASystemTray.exe|Panda
+patch.exe|TrendMicro PC-cillin
+pavbckpt.exe|Panda Internet Security
+PavBckPT.exe|Panda Internet Security
+pavfires.exe|Panda Anti-Virus
+PavFnSvr.exe|Panda
+pavfnsvr.exe|Panda Internet Security
+PAVFNSVR.exe|Panda Internet Security
+pavjobs.exe|Panda Internet Security
+Pavkre.exe|Panda
+pavkre.exe|Panda Anti-Virus
+pavmail.exe|Panda Anti-Virus
+PavProt.exe|Panda
+pavprot.exe|Panda Anti-Virus
+pavprsrv.exe|Panda Anti-Virus
+PavPrSrv.exe|Panda Internet Security
+PavReport.exe|Panda
+pavsched.exe|Panda Anti-Virus
+pavsrv50.exe|Panda Anti-Virus
+pavsrv51.exe|Panda Anti-Virus
+PAVSRV51.exe|Panda Internet Security
+pavsrv52.exe|Panda Anti-Virus
+pavupg.exe|Panda AdminSecure upgrade utility
+pccclient.exe|TrendMicro PC-cillin
+pccguide.exe|TrendMicro PC-cillin
+pcclient.exe|TrendMicro PC-cillin
+pccNT.exe|TrendMicro
+pccnt.exe|TrendMicro PC-cillin
+pccntmon.exe|TrendMicro PC-cillin
+PccNTMon.exe|TrendMicro PC-cillin
+PccNTUpd.exe|TrendMicro
+pccntupd.exe|TrendMicro PC-cillin
+pccpfw.exe|TrendMicro PC-cillin
+pcctlcom.exe|TrendMicro
+PcCtlCom.exe|TrendMicro
+pcscan.exe|TrendMicro PC-cillin
+PcScnSrv.exe|TrendMicro
+pctsAuxs.exe|Spyware Doctor
+pctsGui.exe|Spyware Doctor
+pctsSvc.exe|Spyware Doctor
+pctsTray.exe|Spyware Doctor
+pep.exe|CA Jinchen KILL / eTrust Antivirus
+persfw.exe|Kerio Personal Firewall 2.1.5
+pmon.exe|Process Monitor
+PNmSrv.exe|Panda
+pnmsrv.exe|Panda Network Manager
+pntiomon.exe|TrendMicro PC-cillin
+pop3pack.exe|TrendMicro PC-cillin
+pop3trap.exe|TrendMicro PC-cillin
+poproxy.exe|Symantec
+POProxy.exe|Symantec
+POPROXY.EXE|Symantec
+PPClean.exe|CA Internet Security Suite 2007
+PPCtlPriv.exe|CA Internet Security Suite 2008 Antispyware
+ppmcativedetection.exe|eTrust
+ppmcativedetection.exe|eTrust
+PpPpWallRun.exe|Jiangmin AV and FW
+pqibrowser.exe|Symantec
+PQIBrowser.exe|Symantec
+pqv2isvc.exe|Symantec
+prevsrv.exe|Panda Anti-Virus
+PrintDevice.exe|GoldenDolphin Chinese IDS
+PrivacyIconClient.exe|Intel Management and Security 
+PrivacyIconClient.exe|Intel Management and Security 
+procexp.exe|Sysinternals Process Explorer
+ProtectedModuleHost.exe|McAfee
+ProUtil.exe|BlackIce Firewall
+PSANHOST.EXE|Panda Internet Security
+psctris.exe|Panda Enterprise
+PsCtrlS.exe|Panda Internet Security
+PSHost.exe|Panda Internet Security
+psh_svc.exe|Acronis Privacy Expert Suite
+psimreal.exe|Panda Internet Security
+psimreal.exe|Panda Internet Security
+PSIMSVC.EXE|Panda
+psimsvc.exe|Panda Anti-Virus
+PsImSvc.exe|Panda Internet Security
+pskmssvc.exe|Panda Internet Security
+PSUAMAIN.EXE|Panda Internet Security
+PSUASERVICE.EXE|Panda Internet Security
+pthosttr.exe|HP Protecttools Security Manager 
+pviewer.exe|Process Explode process viewer
+pview.exe|Process Explode process viewer
+PwdFiltHelp.exe|GoldenDolphin Chinese IDS
+PXEMTFTP.exe|Altiris Process
+pxemtftp.exe|Symantec
+pxeservice.exe|Symantec
+PylumLoader.exe| Cybereason|EDR
+qclean.exe|McAfee QuickClean
+qdcsfs.exe|Symantec
+qoeloader.exe|Qurb/CA Internet Security 2008/9 AntiSpam
+Qoeloader.exe|Qurb/CA Internet Security 2008/9 AntiSpam
+qserver.exe|Symantec
+rapapp.exe|BlackIce Firewall
+RapApp.exe|BlackIce Firewall
+RapApp.exe|BlackIce Firewall
+rapuisvc.exe|ISS_Proventia_Agent 9.0 from IBM
+ras.exe|Rising Antispyware
+rasupd.exe|Rising Antispyware
+RavAlert.exe|Rising AntiVirus
+Rav.exe|Rising AntiVirus
+ravmond.exe|Rising AntiVirus
+RavMonD.exe|Rising AntiVirus
+RAVMOND.exe|Rising AntiVirus
+ravmon.exe|Rising AntiVirus
+RavMon.exe|Rising AntiVirus
+RavService.exe|Rising AntiVirus
+ravstub.exe|Rising AntiVirus
+RavStub.exe|Rising AntiVirus
+RavTask.exe|Rising AntiVirus
+RavTray.exe|Rising AntiVirus
+RavUpdate.exe|Rising AntiVirus
+ravxp.exe|Rising
+RavXP.exe|Rising
+RAVXP.exe|Rising
+rcsvcmon.exe|GFI EndPointSecurity 
+realmon.exe|CA Jinchen Kill Realtime Monitor
+Realmon.exe|CA Jinchen Kill Realtime Monitor
+RealMon.exe|CA Jinchen Kill Realtime Monitor
+RedirSvc.exe|McAfee Internet Security Suite
+RegMech.exe|Spyware Doctor
+remupd.exe|Panda Agent
+RepMgr64.exe|Carbon Black|NGAV EDR
+RepMgr64.exe|Carbon Black|NGAV EDR
+ReporterSvc.exe|Symantec
+reportsvc.exe|Symantec Reporting Service
+RetinaEngine.exe|eEye Retina Digital Security 
+RetinaEngine.exe|eEye Retina Digital Security 
+rfwmain.exe|Rising Firewall
+rfwproxy.exe|Rising
+rfwsrv.exe|Rising Firewall
+rfwstub.exe|Rising
+rnav.exe|Symantec
+RNReport.exe|Rising AntiVirus
+RouterNT.exe|Sophos Control Center
+RPCServ.exe|McAfee
+RPCServ.exe|McAfee
+rsnetsvr.exe|Rising Anti-Virus
+RSSensor.exe|McAfee Rogue System Sensor
+rstray.exe|Rising Anti-Spyware
+rtvscan.exe|Symantec
+Rtvscan.exe|Symantec
+RTVscan.exe|Symantec
+rulaunch.exe|McAfee User Interface
+SAFeService.exe|McAfee SAFe Common Technology
+saHookMain.exe|McAfee SiteAdvisor
+SAService.exe|McAfee Internet Security Suite
+sav32cli.exe|Sophos Anti-Virus Scanner   
+SAVAdminService.exe|Sophos Anti-Virus
+SAVFMSECTRL.exe|Symantec Mail Security 
+SAVFMSECTRL.exe|Symantec Mail Security 
+SAVFMSELog.exe|Symantec Mail Security
+SAVFMSELog.exe|Symantec Mail Security 
+SAVFMSESJM.exe|Symantec Mail Security
+SAVFMSESJM.exe|Symantec Mail Security 
+SAVFMSESpamStatsManager.exe|Symantec Mail Security 
+SAVFMSESpamStatsManager.exe|Symantec Mail Security 
+SAVFMSESp.exe|Symantec
+SAVFMSESrv.exe|Symantec Mail Security 
+SAVFMSESrv.exe|Symantec Mail Security 
+SAVFMSETask.exe|Symantec Mail Security 
+SAVFMSETask.exe|Symantec Mail Security 
+SAVFMSEUI.exe|Symantec Mail Security 
+SAVFMSEUI.exe|Symantec Mail Security 
+SAVMain.exe|Sophos Anti-Virus GUI is OPEN
+savroam.exe|Symantec
+SavRoam.exe|Symantec
+savscan.exe|Symantec
+SAVScan.exe|Symantec
+savservice.exe|Sophos Anti-Virus
+SavService.exe|Sophos Anti-Virus
+SavUI.exe|Symantec
+SBAMSvc.exe|Vipre
+sbserv.exe|Symantec
+scan32.exe|McAfee Virusscan Enterprise
+scanexplicit.exe|Symantec
+scanfrm.exe|Rising Anti-Virus
+scanmailoutlook.exe|TrendMicro PC-cillin
+ScanMailOutLook.exe|TrendMicro PC-cillin
+SCANMSG.exe|Omniquad Total Security 3.0.0
+SCANWSCS.exe|Omniquad Total Security 3.0.0
+SCFManager.exe|Sophos FIREWALL
+SCFService.exe|Sophos FIREWALL
+SCFTray.exe|Sophos FIREWALL
+schdsrvc.exe|Sophos Control Center
+schupd.exe|TrendMicro
+SDRSERVICE.EXE|Sophos Anti-Virus
+SDTrayApp.exe|Spyware_Doctor 5 from PC Tools
+SeAnalyzerTool.exe|Netgate Spy Emergency
+seccenter.exe|Bitdefender
+securitycenter.exe|Aluria Security Center 
+securitycenter.exe|Aluria Security Center 
+SecurityManager.exe|MSC BAM Services 
+SecurityManager.exe|MSC BAM Services 
+seestat.exe|StatWin
+SemSvc.exe|Symantec
+SescLU.exe|Symantec
+setloadorder.exe|BitDefender Security Suite
+setupguimngr.exe|F-Secure Internet Security
+SetupGUIMngr.exe|F-Secure Internet Security
+SEVINST.EXE|Symantec
+sfc.exe|Cisco AMP|EDR service
+sgbhp.exe|SpywareBlaster Internet Security Tool 
+sgbhp.exe|SpywareBlaster Internet Security Tool 
+shstat.exe|McAfee VirusScan Enterprise
+sidebar.exe|AVG Anti-Virus
+siteadv.exe|McAfee Internet Security Suite
+SiteAdv.exe|McAfee Internet Security Suite
+slee81.exe|Steganos Security Suite Component 
+slee81.exe|Steganos Security Suite Component 
+smc.exe|Symantec (or possibly Sygate, check path)
+SmcGui.exe|Symantec
+SMEX_ActiveUpda|TrendMicro ScanMail for Exchange
+SMEX_Master.exe|TrendMicro ScanMail for Exchange
+SMEX_RemoteConf|TrendMicro ScanMail for Exchange
+SMEX_SystemWatc|TrendMicro ScanMail for Exchange
+smoutlookpack.exe|TrendMicro PC-cillin
+smOutlookPack.exe|TrendMicro PC-cillin
+SMSECtrl.exe|Symantec
+SMSELog.exe|Symantec
+SMSESJM.exe|Symantec
+smsesp.exe|Symantec
+SMSESp.exe|Symantec
+SMSESrv.exe|Symantec
+SMSETask.exe|Symantec
+SMSEUI.exe|Symantec
+sms.exe|Symantec
+smsx.exe|Security Technology Solutions SMSexpress 
+SNAC.exe|Symantec Network Access Control
+SNAC.EXE|Symantec Network Access List
+sndmon.exe|Symantec
+SNDMon.exe|Symantec
+sndsrvc.exe|Symantec
+SNDSrvc.exe|Symantec
+SnHwSrv.exe|Secret Net
+SnICheckAdm.exe|Secret Net
+SnicheckSrv.exe|Secret Net
+SnIcon.exe|Secret Net
+SnSrv.exe|Secret Net
+spbbcsvc.exe|Symantec
+SPBBCSvc.exe|Symantec
+spideragent.exe|DrWeb Total Security 
+spiderml.exe|DrWeb
+SPIDERML.EXE|DrWeb
+spidernt.exe|DrWeb
+SPIDERNT.EXE|DrWeb
+spiderui.exe|DrWeb
+spntsvc.exe|TrendMicro ServerProtect
+SpntSvc.exe|TrendMicro ServerProtect
+SpyEmergency.exe|Netgate Spy Emergency
+SpyEmergencySrv.exe|Netgate Spy Emergency
+srvload.exe|Panda Internet Security
+srvmon.exe|McAfee
+sschk.exe|Simply Super Software Trojan Scanner
+SSecurityManager.exe|SIWF BAM Services 
+SSecurityManager.exe|SIWF BAM Services 
+SSM.exe|Symantec or Veritas Net Backup
+SSP.EXE|Sophos Endpoint Security
+SSScheduler.exe|McAfee Security Scan
+starta.exe|AntiVir Security Management Center Agent Module 
+starta.exe|AntiVir Security Management Center Agent Module 
+stinger.exe|McAfee Stinger
+stopa.exe|AntiVir Security Management Center Agent Module 
+stopa.exe|AntiVir Security Management Center Agent Module 
+stopp.exe|TrendMicro ServerProtect
+StOPP.exe|TrendMicro ServerProtect
+stwatchdog.exe|TrendMicro ServerProtect
+StWatchDog.exe|TrendMicro ServerProtect
+svcGenericHost|TrendMicro ScanMail for Exchange
+svcharge.exe|SiliVaccine Antivirus
+SVCharge.exe|SiliVaccine Antivirus
+svcntaux.exe|Spyware_Doctor 5 from PC Tools
+svdealer.exe|SiliVaccine Antivirus
+SVDealer.exe|SiliVaccine Antivirus
+svframe.exe|SiliVaccine Antivirus
+SVFrame.exe|SiliVaccine Antivirus
+svtray.exe|SiliVaccine Antivirus
+SVTray.exe|SiliVaccine Antivirus
+SWC_SERVICE.EXE|Sophos Anti-Virus
+swdsvc.exe|Spyware_Doctor 5 from PC Tools
+sweepsrv.sys|Sophos Anti-Virus
+SWI_SERVICE.EXE|Sophos Anti-Virus
+swnetsup.exe|Sophos Anti-Virus
+SWNETSUP.EXE|Sophos Anti-Virus
+swnxt.exe|Spyware Nuker
+swserver.exe|StatWin Total
+symlcsvc.exe|Symantec
+symproxysvc.exe|Symantec
+symsport.exe|Symantec
+SymSPort.exe|Symantec
+symtray.exe|Symantec
+symwsc.exe|Symantec
+sysdoc32.exe|Symantec
+SysOptEngineSvc.exe| Baidu AV
+system.exe|LanAgent Monitoring
+tbmon.exe|McAfee VirusScan
+TBMon.exe|McAfee VirusScan
+TBMon.exe|McAfee VirusScan
+tclproc.exe|ISS RealSecure IDS
+tdimon.exe|SysInternals TDI Monitor
+TFGui.exe|Threatfire GUI
+TFService.exe|ThreatFire PSP
+TFTray.exe|ThreatFire PSP
+TFun.exe|Threatfire
+TIASPN~1.EXE|Traffic Inspector 2.0
+tmas.exe|TrendMicro Anti-Spyware
+TmListen.exe|TrendMicro
+tmlisten.exe|TrendMicro PC-cillin
+Tmntsrv.exe|TrendMicro
+tmntsrv.exe|TrendMicro PC-cillin
+tmpfw.exe|TrendMicro
+TmPfw.exe|TrendMicro
+tmproxy.exe|TrendMicro
+tmproxy.exe|TrendMicro PC-cillin
+tnbutil.exe|F-Secure Internet Security
+toolbarupdater.exe|AVG Internet Security (64-bit)
+tpsrv.exe|Panda Anti-Virus
+Traflnsp.exe|Traffic Inspector 2.0
+TrapTrackerMgr.exe|EventTracker SNMP Trap service
+trjscan.exe|Simply Super Software Trojan Scanner
+trupd.exe|Simply Super Software Trojan Scanner
+TSAnSrf.exe|Omniquad Total Security 3.0.0
+TSAtiSy.exe|Omniquad Total Security 3.0.0
+TScutyNT.exe|Omniquad Total Security 3.0.0
+TSmpNT.exe|Omniquad Total Security 3.0.0
+UcService.exe|Symantec
+UdaterUI.exe|McAfee VirusScan Enterprise
+UISEAGNT.EXE|Trend Micro Internet Security
+UIWATCHDOG.EXE|Trend Micro Internet Security
+UmxAgent.exe|CA Internet Security Suite 2007
+UmxCfg.exe|CA Internet Security Suite 2007
+UmxFwHlp.exe|CA Internet Security Suite 2007
+UmxPol.exe|CA Internet Security Suite 2007
+unsecapp.exe|Avast Internet Security
+unvet32.exe|CA Internet Security Suite 2007
+Up2date.exe|Kaspersky Administration Kit
+updaterui.exe|McAfee VirusScan Enterprise
+UpdaterUI.exe|McAfee VirusScan Enterprise
+update_task.exe|FortiClient Host Security 3.0.459
+updtnv28.exe|Symantec
+upfile.exe|Rising Antispyware
+uplive.exe|Kingsoft
+UploadRecord.exe|USB thumb drive security 
+UploadRecord.exe|USB thumb drive security 
+UPSCHD.exe|Omniquad Total Security 3.0.0
+urllstck.exe|Symantec
+UrlLstCk.exe|Symantec
+USBGuard.exe|USB Disk Security 
+USBGuard.exe|USB Disk Security 
+UserActivity.exe|EventTracker Scheduler
+UserAnalysis.exe|EventTracker Console
+usergate.exe|Entensys UserGate 5
+usrprmpt.exe|Symantec
+UsrPrmpt.exe|Symantec
+v2iconsole.exe|Symantec
+v3clnsrv.exe|AhnLab
+v3exec.exe|AhnLab V3 Internet Security
+v3imscn.exe|AhnLab V3 Internet Security
+V3LITE.EXE|AhnLab V3 Light
+V3MAIN.EXE|AhnLab V3 Light
+V3Medic.exe|AhnLab
+V3SP.EXE|AhnLab V3 Light
+V3Svc.exe|AhnLab
+vetmsg.exe|CA AntiVirus VET Message Service
+vettray.exe|eTrust
+vpatch.exe|ISS_Proventia_Agent 9.0 from IBM
+vpc32.exe|Symantec
+VPC32.exe|Symantec
+VPDN_LU.exe|Symantec
+vprosvc.exe|Symantec
+vprot.exe|AVG VProtect Application for SafeSearch
+vptray.exe|Symantec System Tray Icon
+VPTray.exe|Symantec System Tray Icon
+vrv.exe|VRV Security Software 
+vrvmail.exe|VRV Security Software
+vrvmon.exe|VRV Security Software
+vrvnet.exe|VRV Security Software
+vshwin32.exe|McAfee On-access scanner
+vsmain.exe|McAfee VirusScan Main Console
+vsmon.exe|ZoneAlarm Component
+vsserv.exe|BitDefender Security Suite
+vsstat.exe|McAfee VirusScan On-Access Scanner
+VsStat.exe|McAfee VirusScan On-Access Scanner
+VSStat.exe|McAfee VirusScan On-Access Scanner
+vstskmgr.exe|McAfee VirusScan Task Manager
+VsTskMgr.exe|McAfee VirusScan Task Manager
+webproxy.exe|Panda Internet Security
+WebProxy.exe|Panda Internet Security
+WEBPROXY.EXE|Panda Internet Security
+webscanx.exe|McAfee Web and ActiveX Scanner
+WebScanX.exe|McAfee Web and ActiveX Scanner
+WebsenseControlService.exe|Websense Web Security / Web Filter 
+WebsenseControlService.exe|Websense Web Security / Web Filter 
+webtrapnt.exe|TrendMicro PC-cillin
+wfxctl32.exe|Symantec
+WFXCTL32.EXE|Symantec
+wfxmod32.exe|Symantec
+WFXMOD32.EXE|Symantec
+wfxsnt40.exe|Symantec
+WFXSNT40.EXE|Symantec
+winlog.exe|Salfeld Personal Security Manager 
+winroute.exe|Kerio Winroute Firewall
+WinRoute.exe|Kerio Winroute Firewall
+WinRoute.exe|Kerio Winroute Firewall
+wrctrl.exe|Kerio Winroute Firewall
+WRSA.exe|Webroot SecureAnywhere
+WrSpySetup.exe|Super WinSpy
+wscntfy.exe|Microsoft Windows Security Center|CORE_OS
+wscntfy.exe|Microsoft Windows Security Center|CORE_OS
+wssfcmai.exe|LanAgent Monitoring
+wtusystemsuport.exe|AVG Internet Security (64-bit)
+xcommsvr.exe|BitDefender Security Suite
+xfilter.exe|Omniquad Total Security 3.0.0
+zanda.exe|Norman Ad-Aware SE Plus Antivirus 1.06r1 and Firewall 1 
+Zanda.exe|Norman Ad-Aware SE Plus Antivirus 1.06r1 and Firewall 1 
+Zanda.exe|Norman Ad-Aware SE Plus Antivirus 1.06r1 and Firewall 1 
+zapro.exe|ZoneAlarm IDS
+ZavAux.exe|Zillya Antivirus
+ZavCore.exe|Zillya Antivirus
+zillya.exe|Zillya Antivirus
+zlclient.exe|ZoneAlarm
+zlh.exe|Norman Ad-Aware SE Plus Antivirus 1.06r1 and Firewall 1 
+Zlh.exe|Norman Ad-Aware SE Plus Antivirus 1.06r1 and Firewall 1 
+ZLH.exe|Norman Ad-Aware SE Plus Antivirus 1.06r1 and Firewall 1 
+zonealarm.exe|ZoneAlarm IDS
